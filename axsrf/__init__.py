@@ -56,7 +56,7 @@ class Token(object):
     def __init__(self, cookie=None, callback=None):
         self._encoded = self._raw = None
         self._cookie = cookie
-        self._callback = None
+        self._callback = callback
 
     @property
     def encoded(self):

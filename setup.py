@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='axsrf',
-    version='0.1',
+    version='0.1.1',
     description='Framework-agnostic CSRF protection library',
     author='Stiletto',
     license='Apache 2.0',
